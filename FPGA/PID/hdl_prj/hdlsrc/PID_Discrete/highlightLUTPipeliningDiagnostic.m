@@ -1,0 +1,10 @@
+open_system('PID_Discrete');
+open_system('gm_PID_Discrete');
+cs.HiliteType = 'user1';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'cyan';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_PID_Discrete/signal_compensator/1-D Lookup Table', 'user1');
+annotate_port('gm_PID_Discrete/signal_compensator/1-D Lookup Table', 0, 1, 'Lookup Table mapped to RAM');
+hilite_system('PID_Discrete/signal_compensator/1-D Lookup Table', 'user1');
+annotate_port('PID_Discrete/signal_compensator/1-D Lookup Table', 0, 1, 'Lookup Table mapped to RAM');
