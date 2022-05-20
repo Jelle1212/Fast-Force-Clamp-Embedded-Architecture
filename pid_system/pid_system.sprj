@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="pid_system" platform="C:/Users/JelleKomen/Documents/software/pid_force_clamp/export/pid_force_clamp/pid_force_clamp.xpfm" platformUID="xilinx:pynq-z1::0.0(custom)" sysConfig="pid_force_clamp" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.2016496147">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="pid" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+    <lastBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="pid" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </lastBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.1033233770">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="pid" domainName="standalone_ps7_cortexa9_0" domainPrettyName="standalone_ps7_cortexa9_0" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>
